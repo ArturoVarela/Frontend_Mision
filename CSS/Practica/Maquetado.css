@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 700px;
+}
+
+div{
+    height: 100px;
+}
+
+.cabecera{
+    background-image: url("../HTML/Cabecera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec1{
+    background-image: url("../HTML/Sec1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+}
+
+.vacunas{
+    background-image: url("../HTML/Medio.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.sec2{
+    background-image: url("../HTML/Sec2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+}
+
+.sec3{
+    background-image: url("../HTML/Sec3.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px;
+}
+
+.sec4{
+    background-image: url("../HTML/Sec4.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px;
+}
+
+.sec5{
+    background-image: url("../HTML/Sec5.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1200px;
+}
