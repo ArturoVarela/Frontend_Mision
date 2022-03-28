@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacedex</title>    
+    <link rel="stylesheet" href="./Spacedex.css">
+</head>
+
+<body>
+
+    <section class="contenedor">
+        <div class="pokedex centrar">
+            <img src="./Pokedex.jpg" alt="Pokemon" id="Pokedex" width="900px" height="900px">
+        </div>
+        <div class="foto">
+            <img src="./pokeball2.png" alt="Pokemon" id="pokeImg" width="260px">
+        </div>
+        <div class="nombrePokemon">
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+        </div>
+        <div class="busqueda">
+            <button onclick="fetchPokemon()">Buscar</button>
+        </div>
+        <div class="datos">
+            <document class="text" id="pokeTipo"></document>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <script src="./Spacedex.js"></script>
+</footer>
+
+</html>
